@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fafaf7;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+
+/*NAVBAR*/
+.kyy{
+    width: auto;
+    height: 100vh;
+    background:#2ec2c2;
+    
+}
+
+
+img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 15%;
+    bottom: 20%;
+    margin-left: 7% ;
+}
+
+.content{
+    height: 15vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/*SPAN*/
+span{
+    color: #cfc864;
+}
+/*SPAN*/
+
+.content h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 2%; 
+}
+
+.content ul li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.content ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.content ul li a:hover{
+    color: #87e96f;
+}
+/*NAVBAR*/
+
+/*HOME*/
+.rkyy{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    line-height: 1;
+}
+
+h1{
+    color: #e7e720;
+    margin: 15px 0px 15px;
+    font-size: 50px;
+}
+
+h3{
+    color: #606C5D;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #606C5D;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/*INPUT*/
+.roky form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.roky form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #2a484e;
+    outline: none;
+    border-radius: 30px;
+}
+
+.roky form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:  #2a484e;
+    color:#DDEFE3;
+    top: 6px;
+    right: 6px;
+}
+/*INPUT*/
+/*HOME*/
+
+/*ABOUT*/
+.bro{
+    width: auto; 
+    height: 100vh;
+    background-color: #2a484e;
+    justify-content: center;
+    text-align:justify;
+    padding: 10%;
+    
+
+
+}
+
+.bro h2{
+    color: #DDEFE3;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    line-height: 1;
+
+}
+
+.bro h5{
+    color: #DDEFE3;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 10%;
+
+}
+
+.bro p{
+    color:#DDEFE3;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+    line-height: 2;
+    
+
+    
+}
+
+button{
+    background-color:#DDEFE3;
+    color:#DDEFE3;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .4S;
+    margin-left: 10%;
+    position:relative;
+}
+
+
+
+button:hover{
+    background-color: transparent;
+    color: 2px solid #DDEFE3;
+    cursor: pointer;
+}
+/*ABOUT*/
+
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #DDEFE3;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #DDEFE3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+/*ABOUT*/
+
+/*CONTACT*/
+.contact-me p{
+    color: #D39E45;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color:#D39E45;
+    color:#DDEFE3;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4S;
+    
+}
+
+.contact-me .button-two:hover{
+    background-color: transparent;
+    color: 2px solid #DDEFE3;
+    cursor: pointer;
+}
+/*CONTACT*/
+
+/*FOOTER*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background:#D39E45;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #2a484e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: #2a484e;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 2;
+}
+/*FOOTER*/
+
+.sosmed{
+    display: flex;
+    color: #2a484e;
+}
+
+.sosmed a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    background: #D39E45;
+    margin: 22px 10px;
+    color: #D39E45;
+    text-decoration: none;
+}
